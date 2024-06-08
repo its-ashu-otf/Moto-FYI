@@ -8,3 +8,8 @@ Real Motorola Experience with Moto CN Apps for Global Devices. These APK's are e
 Download the Modules from Releases Page and Simply flash it in KSU/Magisk.
 
 ## NOTE: These Modules are running on Motorola Edge 50 Pro with Hello-UI from RETIN Channel.
+
+## Badges
+
+
+[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
