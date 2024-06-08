@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <privapp-permissions package="com.android.messaging">
+        <!-- System defined permissions -->
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+	<permission name="android.permission.MODIFY_PHONE_STATE"/>
+	<permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <!--removed by wuqf 2020-10-16
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        end by wuqf -->
+    </privapp-permissions>
+</permissions>
+
