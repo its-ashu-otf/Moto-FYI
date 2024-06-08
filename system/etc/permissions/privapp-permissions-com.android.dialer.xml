@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+     <privapp-permissions package="com.android.dialer">
+        <permission name="android.permission.ALLOW_ANY_CODEC_FOR_PLAYBACK"/>
+        <permission name="android.permission.CAPTURE_AUDIO_OUTPUT"/>
+        <permission name="android.permission.CONNECTIVITY_USE_RESTRICTED_NETWORKS"/>
+        <permission name="android.permission.CONTROL_INCALL_EXPERIENCE"/>
+        <permission name="android.permission.GET_ACCOUNTS_PRIVILEGED"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.MODIFY_AUDIO_ROUTING"/>
+        <permission name="android.permission.MODIFY_PHONE_STATE"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+        <permission name="android.permission.REGISTER_CONNECTION_MANAGER"/>
+        <permission name="android.permission.STATUS_BAR"/>
+        <permission name="android.permission.STOP_APP_SWITCHES"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="com.android.voicemail.permission.READ_VOICEMAIL"/>
+        <permission name="com.android.voicemail.permission.WRITE_VOICEMAIL"/>
+        <!-- MOTO BEGIN - IKSWQ-2060 When click change sim phone keeps stopping -->
+        <permission name="com.motorola.android.permission.USERPREFERREDSIM"/>
+        <!-- MOTO END - IKSWQ-2060 -->
+        <!-- IKSWS-12042 put the incallui on the top, so need to close the system dialogs -->
+        <permission name="android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS" />
+        <!-- IKSWS-12042 end -->
+        <!-- IKSWT-73924 Using by-pass api to get location for emergency platform service-->
+        <permission name="android.permission.LOCATION_BYPASS" />
+        <!-- KSWT-73924 end-->
+    </privapp-permissions>
+</permissions>

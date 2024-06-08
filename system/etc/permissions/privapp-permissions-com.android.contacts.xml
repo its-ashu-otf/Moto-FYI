@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <privapp-permissions package="com.android.contacts">
+        <permission name="android.permission.GET_ACCOUNTS_PRIVILEGED"/>
+	    <permission name="android.permission.MODIFY_PHONE_STATE"/>
+	    <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+	    <permission name="android.permission.READ_PHONE_STATE"/>
+	    <permission name="android.permission.WRITE_SETTINGS"/>
+	    <!-- MOTO BEGIN - IKSWQ-2060 When click change sim phone keeps stopping -->
+	    <permission name="com.motorola.android.permission.USERPREFERREDSIM"/>
+	    <!-- MOTO END - IKSWQ-2060 -->
+	    <permission name="android.permission.MANAGE_USERS"/>
+		<permission name="android.permission.INTERACT_ACROSS_USERS"/>
+</privapp-permissions>
+</permissions>
+
